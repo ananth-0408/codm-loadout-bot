@@ -13,7 +13,7 @@ async def on_message(message) :
   if message.author == client.user :
     return
 
-  if '$help' in message.content.lower() or if client.user.mentioned_in(message) :
+  if ('$help' in message.content.lower()) or (client.user.mentioned_in(message)) :
     await message.reply('Please type `$loadout` followed by a space and the name of the gun for which you want the loadout. For example, `$loadout ak117`')
 
   if message.content.lower() == '$loadout' :
