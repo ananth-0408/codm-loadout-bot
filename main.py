@@ -202,14 +202,17 @@ async def on_message(message) :
   if '$loadout mw' in message.content.lower() :
     await message.reply('**Trigger** : *Light Weight Trigger* \n**Ammunition** : *20 Round Reload* \n**Barrel** : *.45 Compact* \n**Laser** : *OWC Laser - Tactical* \n**Rear Grip** : *Stippled Grip Tape* \n \nnoob')
     
-   if '$loadout j358' in message.content.lower() :
+  if '$loadout j358' in message.content.lower() :
     await message.reply('**Muzzle** : *MIP Light Flash Guard* \n**Barrel** : *j358 Long Barrel* \n**Trigger Action** : *Match Grade Trigger* \n**Laser** : *OWC Laser - Tactical* \n**Rear Grip** : *Granulated Grip Tape* \n \nnoob')
     
-   if '$loadout .50gs' in message.content.lower() or '$loadout 50gs' in message.content.lower() or '$loadout deagle' in message.content.lower() :
+  if '$loadout .50gs' in message.content.lower() or '$loadout 50gs' in message.content.lower() or '$loadout deagle' in message.content.lower() :
     await message.reply('**Muzzle** : *Monolithic Suppressor* \n**Ammunition** : * Extended Mag A* \n**Trigger Action** : *Match Grade Trigger* \n**Laser** : *OWC Laser - Tactical* \n**Rear Grip** : *Granulated Grip Tape* \n \nnoob')
     
-   if '$loadout renetti' in message.content.lower() :
+  if '$loadout renetti' in message.content.lower() :
     await message.reply('**Muzzle** : *Monolithic Suppressor* \n**Barrel** : *OWC Ranger* \n**Stock** : *Combo* \n**Trigger Action** : *Lightweight Trigger* \n**Ammunition** : *Large Extended Mag B* \n \nnoob')
+
+  if '$loadout shorty' in message.content.lower() :
+    await message.reply('**Muzzle** : *Choke* \n**Barrel** : *OWC Ranger* \n**Stock** : *YKM Combat Stock* \n**Guard** : *OWC Stable* \n**Perk** : *Speed Up Kill* \n \nnoob')
 
   
   
